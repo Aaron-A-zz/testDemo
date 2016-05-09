@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		936FC8861CE1345E0052A7FE /* CariocaMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936FC8851CE1345E0052A7FE /* CariocaMenu.swift */; };
+		936FC8881CE13D700052A7FE /* MyMenuContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936FC8871CE13D700052A7FE /* MyMenuContentController.swift */; };
+		936FC88A1CE13DE30052A7FE /* MyMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936FC8891CE13DE30052A7FE /* MyMenuTableViewCell.swift */; };
 		93DDBEB21CDE665000B39E5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DDBEB11CDE665000B39E5E /* AppDelegate.swift */; };
 		93DDBEB41CDE665000B39E5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DDBEB31CDE665000B39E5E /* ViewController.swift */; };
 		93DDBEB71CDE665000B39E5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93DDBEB51CDE665000B39E5E /* Main.storyboard */; };
-		93DDBEB91CDE665000B39E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93DDBEB81CDE665000B39E5E /* Assets.xcassets */; };
 		93DDBEBC1CDE665000B39E5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93DDBEBA1CDE665000B39E5E /* LaunchScreen.storyboard */; };
 		93DDBEC71CDE665000B39E5E /* DesignTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DDBEC61CDE665000B39E5E /* DesignTestTests.swift */; };
 		93DDBED21CDE665000B39E5E /* DesignTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DDBED11CDE665000B39E5E /* DesignTestUITests.swift */; };
+		93DDBEE01CDE827900B39E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93DDBEDF1CDE827900B39E5E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		936FC8851CE1345E0052A7FE /* CariocaMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CariocaMenu.swift; sourceTree = "<group>"; };
+		936FC8871CE13D700052A7FE /* MyMenuContentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMenuContentController.swift; sourceTree = "<group>"; };
+		936FC8891CE13DE30052A7FE /* MyMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMenuTableViewCell.swift; sourceTree = "<group>"; };
 		93DDBEAE1CDE664F00B39E5E /* DesignTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93DDBEB11CDE665000B39E5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93DDBEB31CDE665000B39E5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		93DDBEB61CDE665000B39E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		93DDBEB81CDE665000B39E5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93DDBEBB1CDE665000B39E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93DDBEBD1CDE665000B39E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93DDBEC21CDE665000B39E5E /* DesignTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +52,7 @@
 		93DDBECD1CDE665000B39E5E /* DesignTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93DDBED11CDE665000B39E5E /* DesignTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTestUITests.swift; sourceTree = "<group>"; };
 		93DDBED31CDE665000B39E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93DDBEDF1CDE827900B39E5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,12 @@
 			children = (
 				93DDBEB11CDE665000B39E5E /* AppDelegate.swift */,
 				93DDBEB31CDE665000B39E5E /* ViewController.swift */,
+				936FC8851CE1345E0052A7FE /* CariocaMenu.swift */,
 				93DDBEB51CDE665000B39E5E /* Main.storyboard */,
-				93DDBEB81CDE665000B39E5E /* Assets.xcassets */,
+				936FC8891CE13DE30052A7FE /* MyMenuTableViewCell.swift */,
+				936FC8871CE13D700052A7FE /* MyMenuContentController.swift */,
 				93DDBEBA1CDE665000B39E5E /* LaunchScreen.storyboard */,
+				93DDBEDF1CDE827900B39E5E /* Assets.xcassets */,
 				93DDBEBD1CDE665000B39E5E /* Info.plist */,
 			);
 			path = DesignTest;
@@ -230,7 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93DDBEBC1CDE665000B39E5E /* LaunchScreen.storyboard in Resources */,
-				93DDBEB91CDE665000B39E5E /* Assets.xcassets in Resources */,
+				93DDBEE01CDE827900B39E5E /* Assets.xcassets in Resources */,
 				93DDBEB71CDE665000B39E5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				93DDBEB41CDE665000B39E5E /* ViewController.swift in Sources */,
+				936FC8861CE1345E0052A7FE /* CariocaMenu.swift in Sources */,
+				936FC88A1CE13DE30052A7FE /* MyMenuTableViewCell.swift in Sources */,
+				936FC8881CE13D700052A7FE /* MyMenuContentController.swift in Sources */,
 				93DDBEB21CDE665000B39E5E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +494,7 @@
 				93DDBED81CDE665000B39E5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93DDBED91CDE665000B39E5E /* Build configuration list for PBXNativeTarget "DesignTestTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +503,7 @@
 				93DDBEDB1CDE665000B39E5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93DDBEDC1CDE665000B39E5E /* Build configuration list for PBXNativeTarget "DesignTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +512,7 @@
 				93DDBEDE1CDE665000B39E5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
